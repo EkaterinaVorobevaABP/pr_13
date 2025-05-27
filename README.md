@@ -59,7 +59,7 @@ join table2 on table1.id1 = table2.id1;
 ![image](https://github.com/user-attachments/assets/e457df0d-fd69-4a36-856e-aa617265c07a)
 # 6. Используя таблицы table1 и table2, реализуйте план запроса: План запроса встроенного инструмента pgAdmin
 ![image](https://github.com/user-attachments/assets/79be0f82-23f6-45ea-8d90-9163b7f1cdc5)
-# 7. Реализовать запросы с использованием объединений, группировки, вложенного подзапроса. Экспортировать план в файл, используя psql -qAt -f explain.sql > analyze.json
+# 7. Реализовать запросы с использованием объединений, группировки, вложенного подзапроса. Экспортировать план в файл
 Для достижения наилучших результатов используйте EXPLAIN (ANALYZE, COSTS, VERBOSE, BUFFERS, FORMAT JSON)
 ```
 select *
