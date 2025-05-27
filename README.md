@@ -75,6 +75,8 @@ from table1
 join table2 on table1.id1 = table2.id1;
 ```
 ![image](https://github.com/user-attachments/assets/ea4fa782-13ce-4650-9535-02aa469f8a2d)
+![image](https://github.com/user-attachments/assets/3d9eeff0-c5e2-4860-8c40-d4ed9df99eea)
+
 
 ```
 select id1, count(*) as rowss
@@ -90,7 +92,7 @@ from table1
 group by id1;
 ```
 ![image](https://github.com/user-attachments/assets/fe885c7d-e900-4e93-8e7d-24f3e360c287)
-
+![image](https://github.com/user-attachments/assets/ad1ba3a9-2e64-4d85-a4a2-ebbad5cb92a5)
 
 ```
 select *
@@ -106,6 +108,8 @@ select *
 from table1
 where id1 = (select max(id1) from table1)
 ```
+![image](https://github.com/user-attachments/assets/a3ece1d9-09ec-474c-9e54-36d2398b9f99)
+
 ![image](https://github.com/user-attachments/assets/07bf60a2-ee7b-4ab9-b392-67a0f63b1cce)
 # 8. Сравните полученные результаты в пункте 13.6 локально с результатом на сайте https://tatiyants.com/pev/#f/plans/new и сделайте вывод.
 ![image](https://github.com/user-attachments/assets/5789626c-b44c-46bf-8d50-95549091797d)
